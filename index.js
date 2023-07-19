@@ -1,6 +1,8 @@
 const dotenv = require('dotenv');
 const express = require('express');
 const path = require('path');
+const hbs = require('hbs');
+const db = require('./models/db.js');
 
 const app = express();
 
